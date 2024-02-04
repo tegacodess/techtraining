@@ -1,0 +1,29 @@
+Git is a distributed version control system designed to track changes in source code during software development. It allows multiple developers to collaborate on projects and keeps a history of all changes made to the codebase.
+With Git, you can create repositories. A repository a folder or directory where your project's files and version history are stored. 
+You can have both local repositories (on your machine) and remote repositories (hosted on a server, like GitHub or GitLab).  
+
+Commits: A commit is a snapshot of changes to your project's files at a specific point in time. 
+Each commit has a unique identifier, a commit message (to describe the changes), and a pointer to the previous commit(s) in the project's history.
+
+Branches: A branch is a separate line of development within a Git repository. By default, there is always a main branch (often named master or main). 
+You can create new branches to work on features or fixes without affecting the main codebase. Branches allow for parallel development and experimentation.
+
+Basic Commands:
+
+git init: Initialize a new Git repository in your project directory.
+git clone: Copy an existing repository from a remote server to your local machine.
+git add: Add changes to the staging area (index) to prepare them for committing.
+git commit: Record changes to the repository with a descriptive message.
+git status: Check the status of files in the repository (untracked, modified, staged).
+git push: Upload local repository changes to a remote repository.
+git pull: Fetch changes from a remote repository and merge them into the current branch.
+git checkout: Switch branches or restore working tree files.
+git branch: List, create, or delete branches.
+git merge: Combine changes from different branches.
+git log: View commit history.
+
+Remote Repositories: Remote repositories are hosted on servers like GitHub, GitLab, or Bitbucket. You can push your local changes to a remote repository using git push and pull changes from a remote repository using git pull.
+
+Undoing Changes: Git provides several ways to undo changes, such as using git reset, git revert, or git checkout.
+
+Collaboration: Git facilitates collaboration among developers by allowing them to work on different features or fixes in parallel, merge their changes, and resolve conflicts. Collaboration often involves workflows like Forking Workflow, Centralized Workflow, or Gitflow Workflow.

@@ -1,0 +1,16 @@
+GitHub is a web-based platform built on top of Git that provides additional features and services for hosting Git repositories and collaborating on projects. 
+Here are the basics of GitHub:
+
+Repositories: GitHub hosts Git repositories in the cloud. You can create repositories for your projects, whether they're public (visible to everyone) or private (visible only to collaborators you specify).
+
+Collaboration: GitHub facilitates collaboration among developers by providing features such as:
+
+1. Forks: You can fork a repository to create a copy of it in your GitHub account. This allows you to freely experiment with changes without affecting the original repository.
+2. Pull Requests: When you've made changes in your fork and want to contribute them back to the original repository, you can open a pull request. Pull requests are a way to propose and discuss changes with the repository's maintainers.
+3. Issues: GitHub's issue tracker allows you to report bugs, suggest new features, or ask questions. Issues can be assigned to contributors, labeled, and organized into milestones.
+
+Branch Protection: GitHub allows repository owners to protect certain branches (like the main branch) from direct pushes or force pushes, requiring changes to go through pull requests and reviews.
+
+Code Reviews: GitHub provides tools for reviewing code changes in pull requests. Reviewers can leave comments, suggest changes, and approve or request changes before merging the code.
+
+GitHub Pages: GitHub Pages is a feature that allows you to host static websites directly from your GitHub repositories. It's commonly used for project documentation, personal websites, and project landing pages.

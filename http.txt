@@ -1,0 +1,33 @@
+HTTP stands for Hyper Text Transfer Protocol
+Hypertext Transfer Protocol (HTTP) and HTTPS: HTTP is a protocol used for transferring hypertext (web pages) between a web server and a web browser. 
+HTTPS is the secure version of HTTP that encrypts data for secure communication. It is commonly used for online transactions and sensitive information exchange.
+
+In HTTP, theres something called HTTP Request Methods: HTTP defines several request methods indicating the desired action to be performed on the identified resource. The commonly used methods are:
+
+GET: Requests data from a specified resource.
+POST: Submits data to be processed to a specified resource.
+PUT: Uploads a representation of the specified resource.
+DELETE: Deletes the specified resource.
+PATCH: Partially modifies a resource.
+
+HTTP status code:  HTTP responses contain status codes to indicate the outcome of the request. Some common status codes include:
+
+200 OK: The request has succeeded.
+404 Not Found: The server can't find the requested resource.
+500 Internal Server Error: The server encountered an unexpected condition.
+302 Found: The requested resource resides temporarily under a different URI.
+
+Headers: HTTP headers provide additional information about the request or response. They include:
+
+Content-Type: Indicates the media type of the resource.
+Content-Length: Indicates the size of the entity-body in bytes.
+User-Agent: Identifies the client making the request.
+Cache-Control: Directives for caching mechanisms in both requests and responses.
+
+
+URLs (Uniform Resource Locators): URLs specify the location of a resource on the internet. They consist of several components including:
+
+Protocol (e.g., http:// or https://)
+Domain name (e.g., www.example.com)
+Path (e.g., /path/to/resource)
+Query parameters (e.g., ?param1=value1&param2=value2)
